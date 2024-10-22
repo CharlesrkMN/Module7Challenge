@@ -9,9 +9,21 @@ header, main, footer {
     padding: 20px;
 }
 
+.social-links a {
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
 /* Add your styles here */
+#Hero {
+    background-color: aquamarine;
+}
 
 /* Example of a media query for responsiveness */
 @media (max-width: 600px) {
     /* Add styles for smaller screens */
+    object-fit: fill;
 }
